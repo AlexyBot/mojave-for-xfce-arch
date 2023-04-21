@@ -1,0 +1,2 @@
+Just copy the .emerald folder into your home directory.
+Yes, that's it. If you're already running Compiz with the emerald decorations you'll maybe need to log out and back in.

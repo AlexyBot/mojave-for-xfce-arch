@@ -1,0 +1,32 @@
+Packages listed go as follow:
++ = Necessary
+* = Optional
+
+Needed packages from the main repos:
+plank
+kvantum
+
+Packages from the AUR:
+
++ vala-panel-appmenu-xfce-git    [App menu applet for the xfce4 panel]
+ -> also needs:
+   + vala-panel-appmenu-registrar-git
+   + appmenu-gtk-module-git
+   * vala-panel-appmenu-jayatana-git (Optional: only if you use Java programs with appmenus)
+
++ compiz    [Window manager with fancy effects, defaults are already pretty mac-like]
+-> also needs:
+   + emerald-gtk3
+   * emerald-themes (Optional: modified Yosemite theme already included)
+
+Recommended packages for consistency's sake:
+(AUR) * apple-fonts                [Includes San Francisco Pro, Display and Mono fonts, along with other macOS fonts]
+      + nemo                       [Layout closer to Finder, preferred over Thunar]
+(AUR) * firefox-appmenu            [Firefox but with appmenu]
+      * transmission-qt            [GTK4 version gets double menus, hence why the QT version]
+      * l3afpad                    [TextEdit replacement, GTK3 version of leafpad]
+(AUR) * slingshot/slingswarm       [Launchpad clone, use slingswarm if slingshot gives you errors compiling]
+      * galculator                 [Calculator with app menu]
+      * xreader                    [PDF viewer with app menu]
+      * pragha                     [iTunes lookalike]
+      * lightdm-webkit2-greeter    [Needed for a more mac-like login screen (check display-manager.txt)]

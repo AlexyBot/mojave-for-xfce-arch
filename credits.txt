@@ -1,0 +1,14 @@
+ALL I DID IS GET EVERYTHING IN A PACKAGE, ALL CREDITS GO AS FOLLOW:
+
+McMojave/Mcata GTK and Kvantum themes:
+- VINCELIUCE (https://github.com/vinceliuice)
+
+Os-Catalina icons:
+- ZAYRONXIO  (https://github.com/zayronxio)
+
+System sounds for GNOME (and other GTK-based desktops):
+- LUCAGOC    (https://github.com/lucagoc)
+
+MacOS cursor set:
+- DOUGLASCOMIM (https://github.com/douglascomim)
+  (cursor set removed from github, original download: https://www.pling.com/p/1241071)

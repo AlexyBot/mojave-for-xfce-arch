@@ -1,0 +1,4 @@
+Copy the compiz-1 folder into ~/.config
+That should be all of it.
+
+NOTE: Alt-Tab dialog has a bug on which it shows a title bar on it. It seems it's an old bug that never got fixed.

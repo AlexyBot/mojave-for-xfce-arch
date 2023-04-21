@@ -1,0 +1,15 @@
+==== GTK THEME AND ICONS ====
+
+THEMES:
+Extract and copy both folders on one of the following directories:
+        ~/.local/share/themes (Current user only)
+        /usr/share/themes     (System wide)
+
+ICONS:
+Extract and copy both folders on one of the following directories:
+        ~/.local/share/icons (Current user only)
+        /usr/share/icons     (System wide)
+
+==== KVANTUM ====
+You can either install the theme manually using Kvantum-manager or copying it to /usr/share/Kvantum
+The choices are yours, and yours alone.

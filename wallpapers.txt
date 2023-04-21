@@ -1,0 +1,1 @@
+You can just drop them on whatever folder you want. However, if you use the Glorious greeter (check display-manager.txt) it is highly recommended to drop them on /usr/share/backgrounds/mac

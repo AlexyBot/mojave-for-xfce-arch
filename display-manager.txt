@@ -1,0 +1,28 @@
+As for display managers you have two options:
+
+* Using GDM with the Mojave shell theme
+* Using LightDM with the WebKit2 greeter
+
+If you choose the latter one, I recommend using the Glorious theme since it looks the closest to the macOS login screen.
+Download link: https://github.com/manilarome/lightdm-webkit2-theme-glorious
+AUR package:   lightdm-webkit2-theme-glorious
+
+After installing the Glorious theme, with your preferred text editor open /etc/lightdm/lightdm.conf and change the following line:
+
+102 | greeter-session=(whatever greeter)
+
+to:
+
+102 | greeter-session=lightdm-webkit2-greeter
+
+If it's commented, remove the # at the beginning of it.
+
+Now we're gonna edit the file /etc/lightdm/lightdm-webkit2-greeter.conf ; if it doesn't exist, create it. Now edit the following line as follows:
+
+21 | webkit_theme = default
+
+to:
+
+21 | webkit_theme = glorious
+
+Once you reboot and go into the Glorious greeter, you can change your wallpaper from there.
